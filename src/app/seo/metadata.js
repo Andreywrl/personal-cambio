@@ -21,10 +21,16 @@ export const metadata = {
         site_name: "Personal Câmbio",
         images: [
             {
+                url: "https://www.personalcambio.com.br/assets/general/publicImage.jpg",
+                width: 800,
+                height: 800,
+                alt: "Homem de Verde"
+            },
+            {
                 url: "https://www.personalcambio.com.br/assets/general/logo.png",
                 width: 800,
                 height: 800,
-                alt: "Logo Personal Câmbio"
+                alt: "Logo Persnal Câmbio"
             }
         ]
     },
@@ -33,7 +39,7 @@ export const metadata = {
         description:
             "Mais de 20 anos oferecendo soluções de câmbio seguras e eficientes para empresas e pessoas físicas. Conte com a Personal Câmbio.",
         card: "summary",
-        image: "https://www.personalcambio.com.br/assets/general/logo.png"
+        image: ["https://www.personalcambio.com.br/assets/general/publicImage.jpg","https://www.personalcambio.com.br/assets/general/logo.png"]
     },
     alternates: {
         canonical: "https://www.personalcambio.com.br"

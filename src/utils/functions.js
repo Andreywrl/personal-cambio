@@ -1,6 +1,6 @@
 export const getWhatsappLink = (text) => {
     const numbers = [
-        '555181817748',
+        '5194042424',
     ];
 
     const message = text ?? 'Olá! Estou vindo do site Personal Câmbio e gostaria de fazer uma cotação.';
@@ -13,7 +13,7 @@ export const getWhatsappLink = (text) => {
 
 export const sendGTMConversion = () => {
     // window.gtag('event', 'conversion', {
-    //     'send_to': 'AW-17214539136/czjOCKGfmtwaEICLxJBA',
+    //     'send_to': 'AW-/czjOCKGfmtwaEICLxJBA',
     //     'value': 1.0,
     // });
     return false;
