@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://personalcambio.com.br/
+
+# Sitemaps
+Sitemap: https://personalcambio.com.br/sitemap.xml
